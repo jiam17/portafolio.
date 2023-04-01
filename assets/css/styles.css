@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Edu+NSW+ACT+Foundation&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tillana&display=swap');
+/*resetear margen y padding*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Alkatra', cursive;
+font-family: 'Edu NSW ACT Foundation', cursive;
+font-family: 'Lobster', cursive;
+font-size: 5rem;
+color: #28432F;
+text-shadow: 5px 5px 2px rgb(57, 170, 57);
+}
+
+h2{
+    font-family: 'Tillana', cursive;
+    font-size: 3.5rem;
+    color: #28432F;
+}
+
+#developer{
+    text-decoration: underline;
+}
+
+header{
+    background-color: #E4F9F5;
+    padding-top: 20px;
+    position: relative;
+}
+
+#cloud-top{
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+#cloud-button{
+    position: absolute;
+    bottom: 300px;
+    left: 200px;
+}
+
+main{
+    margin: 100px;
+}
+
+
+.paragraph{
+    width: 30%;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.skills-row h3{
+    width: 50%;
+    margin: 100px auto;
+}
+
+.developer-img{
+    width: 30%;
+    float: left;
+    margin-right: 60px;
+}
+
+.chillies-img{
+    width: 20%;
+    float: right;
+    margin-left: 60px;
+}
+.contact{
+    text-align: center;
+}
+
+.contact h2{
+    margin-bottom: 60px;
+}
+
+.contact h3,p{
+    margin-bottom: 45px;
+}
+
+.contact-button{
+    font-size: large;
+    padding: 1rem;
+    border-radius: 5%;
+    background: rgb(17,157,162);
+    background: linear-gradient(0deg, rgba(17,157,162,1) 28%, rgba(17,201,207,1) 75%);
+    color: white;
+    border: none;
+    transition: all 0.8s;
+}
+
+footer{
+    background-color: rgb(17,157,162);
+    height: 150px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 50px;
+}
+
+footer ul li{
+    list-style: none; 
+    margin-top: 40px;
+    font-family: 'Alkatra', cursive, 'Edu NSW ACT Foundation', cursive,'Fira Sans', sans-serif,'Lobster', cursive;
+}
+
+footer ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    color: aquamarine;
+}
+
+.contact-button:hover{
+    background: rgb(8,67,69);
+    background: linear-gradient(0deg, rgba(8,67,69,1) 28%, rgba(8,88,91,1) 75%);
+    transition: all 0.7s;
+    cursor: pointer;
+}
